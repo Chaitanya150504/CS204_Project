@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// Register file
+// Register file 
 static unsigned int X[32];
 // flags
 // memory
