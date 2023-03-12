@@ -22,7 +22,7 @@ int bintodec(int bin[], int size)
     int dec = 0, j = 0;
     for (int i = size - 1; i >= 0; i--)
     {
-        dec = dec + (bin[i] * (2 ^ j));
+        dec = dec + (bin[i] * (2^ j));
         j++;
     }
     return dec;
